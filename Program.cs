@@ -25,7 +25,7 @@ internal class Program
             int[] combinationCount = dicerolling.Dice(int.Parse(userInput));
 
             //Display message to user
-            System.Console.WriteLine("DICE ROLLING SIMULATION RESULTS");
+            System.Console.WriteLine("\nDICE ROLLING SIMULATION RESULTS");
             System.Console.WriteLine("Each '*' represents 1 % of the total number of rolls.");
             System.Console.WriteLine($"Total number of rolls = {int.Parse(userInput)}\n");
 
