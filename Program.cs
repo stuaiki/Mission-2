@@ -1,4 +1,4 @@
-﻿//Aiki Takaku
+﻿//Aiki Takaku Section 3
 //Mission 2 Assignment
 
 using System;
