@@ -21,7 +21,7 @@ internal class Program
         //If the user input the valid value, do this code below
         if (int.Parse(userInput) > 0)
         {
-            //It is declared and instances for DiceRolling class
+            //These do declaration and instantiation
             //This codes invokes 'Dice' methods from DiceRolling class with userInput as a parameter to pass in the second class
             DiceRolling dicerolling = new DiceRolling();
             int[] combinationCount = dicerolling.Dice(int.Parse(userInput));
